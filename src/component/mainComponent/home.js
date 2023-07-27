@@ -1,7 +1,6 @@
 
 import MyImage from '../images/home/home page.jpg'
 import { Download } from 'react-bootstrap-icons';
-
 const Home = () =>{
   const resumeUrl = '/Resume.pdf';
     return(
@@ -19,9 +18,7 @@ const Home = () =>{
                   <p class="card-text"> As a software developer, I believe in the power of clean and maintainable code, ensuring that every line I write contributes to robust and scalable solutions. I take pride in my ability to translate ideas into reality and deliver exceptional results that exceed expectations.</p>
                   <p class="card-text"> I invite you to explore my portfolio, where you can find a collection of my projects that showcase my skills and dedication to the world of software development. I'm excited to collaborate on new ventures and contribute my expertise to making a difference in the digital landscape.</p>
                   <p class="card-text"> Let's connect and discuss how I can help bring your vision to fruition. I look forward to embarking on new challenges and making a lasting impact as a software developer. Thank you for visiting my profile!</p>
-
-                  
-                  <a href={resumeUrl} download = 'resume.pdf' class="btn btn-dark">Download Resume <Download/></a>
+<a href={resumeUrl} download = 'resume.pdf' class="btn btn-dark">Download Resume <Download/></a>
                 </div>
                 <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4col-xxl-4" style={{overflow:"hidden"}}>
                 <img src={MyImage} class="img-fluid rounded-end card-img-left" alt="..." style={{width:"100%",height:"100%", objectFit:"fill"}}/>
